@@ -1,8 +1,12 @@
 {
   "topic": "test",
-  "melding": "Anotherone",
-  "6.4": "hello",
-  "person": {
-    "personident": "1234"
-  }
+  "kafka_key": "test#134",
+  "kafka_partisjon": 0,
+  "kafka_offset": 0,
+  "kafka_timestamp": 0,
+  "kafka_mottatt_dato": "2022-01-01",
+  "oppdatert_dato": "2022-01-01",
+  "lastet_dato": "2022-01-01",
+  "kildesystem": "example",
+  "kafka_message": "Anotherone"
 }
