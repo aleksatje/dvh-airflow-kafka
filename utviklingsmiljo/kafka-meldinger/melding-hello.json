@@ -3,7 +3,7 @@
   "kafka_key": "test#134",
   "kafka_partisjon": 0,
   "kafka_offset": 0,
-  "kafka_timestamp": 0,
+  "kafka_timestamp": 1640995200000,
   "kafka_mottatt_dato": "2022-01-01",
   "oppdatert_dato": "2022-01-01",
   "lastet_dato": "2022-01-01",
