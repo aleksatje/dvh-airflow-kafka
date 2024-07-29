@@ -1,12 +1,11 @@
 {
   "topic": "test",
-  "kafka_key": "test#134",
+  "kafka_key": "test1234",
   "kafka_partisjon": 0,
-  "kafka_offset": 0,
+  "kafka_offset": 2,
   "kafka_timestamp": 1640995200000,
   "kafka_mottatt_dato": "2022-01-01",
   "oppdatert_dato": "2022-01-01",
   "lastet_dato": "2022-01-01",
   "kildesystem": "example",
-  "kafka_message": "Anotherone"
-}
+  "kafka_message":"{ "personident": "12345678901", "type": "testmelding", "data": "testdata" }"
