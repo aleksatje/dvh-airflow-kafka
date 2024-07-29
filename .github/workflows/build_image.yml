@@ -27,7 +27,7 @@ jobs:
         with:
           config: ${{ vars.PERMISSIONS_CONFIG }}
 
-      - uses: actions/checkout@v4.1.4
+      - uses: actions/checkout@v4.1.7
 
       - name: "Add sha to environment variable"
         env:
@@ -53,7 +53,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: .
           push: true
